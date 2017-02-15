@@ -1,0 +1,18 @@
+{
+  "name": "angular-turnjs-example",
+  "description": "Example using angular-turnjs to display a book",
+  "version": "0.0.0",
+  "repository": "https://github.com/jessamynsmith/angular-turnjs-example",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-route": "^1.6.2",
+    "angular-loader": "^1.6.2",
+    "angular-mocks": "^1.6.2",
+    "html5-boilerplate": "^5.3.0",
+    "angular-turnjs": "^1.0.3",
+    "jquery": "1.7.1",
+    "turnjs": "*"
+  }
+}
