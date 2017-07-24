@@ -1,6 +1,6 @@
 # angular-turnjs-example
 
-Example using angular-turnjs to display data from an API.
+Example using angular-turnjs to display a book.
 
 View the running app on [Heroku](https://angular-turnjs-example.herokuapp.com/)
 
