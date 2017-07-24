@@ -5,7 +5,7 @@ angular.module('angularTurnjsExample.book', ['ngRoute'])
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/book', {
       templateUrl: 'book/book.html',
-      controller: 'bookCtrl'
+      controller: 'BookCtrl'
     });
   }])
 
