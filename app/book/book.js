@@ -9,7 +9,7 @@ angular.module('angularTurnjsExample.book', ['ngRoute'])
     });
   }])
 
-  .controller('bookCtrl', function ($scope) {
+  .controller('BookCtrl', function ($scope) {
 
   })
 
