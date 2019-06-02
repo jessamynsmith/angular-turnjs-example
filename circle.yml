@@ -1,7 +1,0 @@
----
-test:
-  override:
-    - node_modules/.bin/jshint --exclude=app/bower_components app
-    - node_modules/karma/bin/karma start --single-run
-#    - node_modules/coveralls/bin/coveralls.js < tests/coverage/PhantomJS*/lcov.info
-

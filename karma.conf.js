@@ -1,7 +1,7 @@
 module.exports = function(config) {
   config.set({
 
-    basePath: './',
+    basePath: '',
 
     files: [
       'app/bower_components/angular/angular.js',
@@ -16,13 +16,22 @@ module.exports = function(config) {
 
     browsers: ['PhantomJS'],
 
-    plugins: [
-      'karma-chrome-launcher',
-      'karma-firefox-launcher',
-      'karma-jasmine',
-      'karma-junit-reporter',
-      'karma-phantomjs-launcher'
-    ],
+    // preprocess matching files before serving them to the browser
+    // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
+    preprocessors: {
+      'app/book/**/*.js': ['coverage']
+    },
+
+
+    // test results reporter to use
+    // possible values: 'dots', 'progress'
+    // available reporters: https://npmjs.org/browse/keyword/karma-reporter
+    reporters: ['progress', 'coverage', 'coveralls'],
+
+    coverageReporter: {
+      type: 'lcov', // lcov or lcovonly are required for generating lcov.info files
+      dir: 'e2e-tests/coverage/'
+    },
 
     junitReporter: {
       outputFile: 'test_out/unit.xml',
