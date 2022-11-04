@@ -23,7 +23,7 @@
     "karma-jasmine": "^2.0.0",
     "karma-junit-reporter": "^2.0.0",
     "karma-phantomjs-launcher": "^1.0.4",
-    "protractor": "^2.1.0"
+    "protractor": "^7.0.0"
   },
   "cacheDirectories": [
     "node_modules",
