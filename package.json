@@ -7,12 +7,12 @@
   "license": "MIT",
   "dependencies": {
     "bower": "^1.8.8",
-    "express": "^4.12.3",
+    "express": "^4.18.2",
     "heroku-ssl-redirect": "0.0.3"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
-    "http-server": "^0.6.1",
+    "http-server": "^14.1.1",
     "jasmine-core": "^2.2.0",
     "jshint": "^2.7.0",
     "karma": "^2.0.0",
@@ -23,7 +23,7 @@
     "karma-jasmine": "^2.0.0",
     "karma-junit-reporter": "^2.0.0",
     "karma-phantomjs-launcher": "^1.0.4",
-    "protractor": "^2.1.0"
+    "protractor": "^7.0.0"
   },
   "cacheDirectories": [
     "node_modules",
